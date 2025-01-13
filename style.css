@@ -1,0 +1,119 @@
+.body {
+  font-family: "Arial", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #ff4444;
+  font-size: 2.5em;
+  text-justify: center;
+}
+h1 span {
+  color: #44ff44;
+}
+p {
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+.quiz-container {
+  margin: 20px auto;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  background: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.question {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+.options button {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1em;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.options button:hover {
+  background: #0056b3;
+}
+.result {
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+.restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background: linear-gradient(45deg, #ff4444, #44ff44);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+.restart-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #ff6666, #66ff66);
+}
+
+/* style.css */
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/3d-rendering-cartoon-couple-beach_23-2151054517.jpg?t=st=1736802749~exp=1736806349~hmac=57f5c6d2fc6b8f618aad71bbb1cd6765543401430eff0701463ad6cad85ef04f&w=996"); /* Replace with the path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  color: white; /* Optional: change text color for better visibility */
+  font-family: Arial, sans-serif; /* Optional: set a default font */
+}
+
+.quiz-container {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional: adds a semi-transparent background to quiz container */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: blue;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+}
